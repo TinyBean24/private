@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.finalproject;
+package myhw.finalproject;
 
 import java.awt.*;
 import javax.swing.*;
@@ -45,9 +45,31 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         }
     }
     
-    private void isGameOver() {
-        
+    private void resetBoard() {
+        btn1.setText(" ");
+        btn2.setText(" ");
+        btn3.setText(" ");
+        btn4.setText(" ");
+        btn5.setText(" ");
+        btn6.setText(" ");
+        btn7.setText(" ");
+        btn8.setText(" ");
+        btn9.setText(" ");
+        b1 = 10;
+        b2 = 10;
+        b3 = 10;
+        b4 = 10;
+        b5 = 10;
+        b6 = 10;
+        b7 = 10;
+        b8 = 10;
+        b9 = 10;
+        i = 0;
     }
+    
+//    private void isGameOver() {
+//        
+//    }
     private void winningGame() {
         if ((b1 == 1 && b2 == 1 && b3 == 1) ||
             (b4 == 1 && b5 == 1 && b6 == 1) ||
@@ -60,11 +82,27 @@ public class TicTacToeGUI extends javax.swing.JFrame {
             JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             xCountLabel.setText(String.valueOf(xCount));
+            resetBoard();
+        }
+        
+        if ((b1 == 0 && b2 == 0 && b3 == 0) ||
+            (b4 == 0 && b5 == 0 && b6 == 0) ||
+            (b7 == 0 && b8 == 0 && b9 == 0)||
+            (b1 == 0 && b4 == 0 && b7 == 0) ||
+            (b2 == 0 && b5 == 0 && b8 == 0) ||
+            (b3 == 0 && b6 == 0 && b9 == 0) ||
+            (b1 == 0 && b5 == 0 && b9 == 0) ||
+            (b3 == 0 && b5 == 0 & b7 == 0)) {
+            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            oCountLabel.setText(String.valueOf(oCount));
+            resetBoard();
         }
         else if (i == 9) {
             JOptionPane.showInternalMessageDialog(null, "It's a Tie", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
             tieCount++;
             tieCountLabel.setText(String.valueOf(tieCount));
+            resetBoard();
         }
 //        if (b1 == 1 && b2 == 1 && b3 == 1) {
 //            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
@@ -513,9 +551,9 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         btnReset.setFont(new java.awt.Font("Helvetica Neue", 0, 26)); // NOI18N
         btnReset.setText("Reset");
         btnReset.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnResetMouseClicked(evt);
-            }
+//            public void mouseClicked(java.awt.event.MouseEvent evt) {
+//                btnResetMouseClicked(evt);
+//            }
         });
         btnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -640,7 +678,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         //btn3.setText("X");
     }                       
 
-    private void btnResetMouseClicked(java.awt.event.MouseEvent evt) {                                      
+//    private void btnResetMouseClicked(java.awt.event.MouseEvent evt) {                                      
         // TODO add your handling code here:
 //        btn1.setText(" ");
 //        btn2.setText(" ");
@@ -660,7 +698,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
 //        b7 = 10;
 //        b8 = 10;
 //        b9 = 10;
-    }                                     
+//    }                                     
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
@@ -701,6 +739,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
             i++;
         }
         choosePlayer();
+        winningGame();
     }                                    
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {                                     
