@@ -1,0 +1,297 @@
+Question 1
+1 / 1 pts
+Arrays are:
+  variable-length entities. 
+Correct!
+  fixed-length entities. 
+  data structures that contain up to 10 related data items. 
+  used to draw a sequence of lines, or "rays."
+ 
+Question 2
+0 / 1 pts
+Which of the following statements about arrays are true?
+A. An array is a group of variables containing values that all have the same type.
+
+B. Elements are located by index.
+
+C. The length of an array c is determined by the expression c.length();.
+
+D. The zeroth element of array c is specified by c[0].
+
+  A, C, D. 
+Correct Answer
+  A, B, D. 
+  C, D. 
+You Answered
+  A, B, C, D. 
+ 
+Question 3
+0 / 1 pts
+Consider the array:
+
+s[0] = 7
+s[1] = 0
+s[2] = -12
+s[3] = 9
+s[4] = 10
+s[5] = 3
+s[6] = 6
+
+The value of s[s[6] - s[5]] is:
+
+  0. 
+You Answered
+  3. 
+Correct Answer
+  9. 
+  10. 
+ 
+Question 4
+0 / 1 pts
+A programmer must do the following before using an array:
+You Answered
+  declare then reference the array. 
+  create then declare the array. 
+  create then reference the array. 
+Correct Answer
+  declare then create the array. 
+ 
+Question 5
+1 / 1 pts
+Consider the code segment below. Which of the following statements is false?
+
+int[] g;
+g = new int[ 23 ];
+  The first statement declares an array reference. 
+  The second statement creates the array. 
+  g is a reference to an array of integers.
+Correct!
+  The value of g[3] is -1. 
+ 
+Question 6
+1 / 1 pts
+What do the following statements do?
+double[] array;
+array = new double[14];
+
+  Create a double array containing 13 elements.
+Correct!
+  Create a double array containing 14 elements.
+  Create a double array containing 15 elements.
+  Declare but do not create a double array.
+ 
+Question 7
+1 / 1 pts
+Which of the following initializer lists would correctly set the elements of array n?
+Correct!
+  int[] n = { 1, 2, 3, 4, 5 };.
+  array n[ int ] = { 1, 2, 3, 4, 5 };.
+  int n[ 5 ] = { 1; 2; 3; 4; 5 };.
+  int n = new int( 1, 2, 3, 4, 5 );.
+ 
+Question 8
+1 / 1 pts
+Consider the program below:
+
+public class Test
+{
+   public static void main(String[] args)
+   {
+      int[] a;
+      a = new int[10];
+
+      for (int i = 0; i < a.length; i++)
+         a[i] = i + 2;
+
+      int result = 0;
+      for (int i = 0; i < a.length; i++)
+         result += a[i];
+
+      System.out.printf("Result is: %d%n", result);
+   }
+}
+
+The output of this program will be:
+
+  Result is: 62.
+  Result is: 64.
+Correct!
+  Result is: 65.
+  Result is: 67.
+ 
+Question 9
+1 / 1 pts
+Consider the class below:
+
+
+public class Test
+{
+   public static void main(String[] args)
+   {
+      int[] a = {99, 22, 11, 3, 11, 55, 44, 88, 2, -3};
+
+      int result = 0;
+
+      for (int i = 0; i < a.length; i++)
+      {
+         if (a[i] > 30)
+            result += a[i];
+      }
+
+      System.out.printf("Result is: %d%n", result);
+   }
+}
+
+
+
+The output of this Java program will be:
+  Result is: 280. 
+  Result is: 154.
+Correct!
+  Result is: 286.
+  Result is: 332.
+ 
+Question 10
+0 / 1 pts
+Which expression adds 1 to the element of array arrayName at index i?
+Correct Answer
+  ++arrayName[ i ].
+  arrayName++[ i ].
+  arrayName[ i++ ].
+You Answered
+  None of these. 
+ 
+Question 11
+1 / 1 pts
+Attempting to access an array element out of the bounds of an array, causes a(n) ________.
+  ArrayOutOfBoundsException
+  ArrayElementOutOfBoundsException
+Correct!
+  ArrayIndexOutOfBoundsException
+  ArrayException
+ 
+Question 12
+1 / 1 pts
+Assume array items contains the values 0, 2, 4, 6 and 8. Which of the following set of statements uses the enhanced for loop to display each value in array items?
+  for (int i = 0; i < items.length; i++)
+   System.out.prinf("%d%n", items[i]);
+  
+for (int i : items)
+   System.out.prinf("%d%n", items[i]);
+
+
+
+Correct!
+  
+for (int i : items)
+   System.out.prinf("%d%n", i);
+
+
+
+  for (int i = 0 : items.length)
+   System.out.prinf("%d%n", items[i]);
+ 
+Question 13
+0 / 1 pts
+Which of the following tasks cannot be performed using an enhanced for loop?
+  Multiplying all the values in an array together. 
+You Answered
+  Displaying all even element values in an array. 
+  Comparing the elements in an array to a specific value. 
+Correct Answer
+  Incrementing the value stored in each element of the array. 
+ 
+Question 14
+1 / 1 pts
+Which statement correctly passes the array items to method takeArray? Array items contains 10 elements.
+  
+takeArray(items[])
+
+ 
+
+Correct!
+  takeArray(items) 
+  takeArray(items[9]) 
+  Arrays cannot be passed to methods-each item must be sent to the method separately. 
+ 
+Question 15
+0 / 1 pts
+Consider array items, which contains the values 0, 2, 4, 6 and 8. If method changeArray is called with the method call changeArray( items, items[ 2 ] ), what values are stored in items after the method has finished executing?
+
+public static void changeArray(int[] passedArray, int value)
+{
+   passedArray[value] = 12;
+   value = 5;
+}
+
+  0, 2, 5, 6, 12. 
+You Answered
+  0, 2, 12, 6, 8. 
+  0, 2, 4, 6, 5. 
+Correct Answer
+  0, 2, 4, 6, 12. 
+ 
+Question 16
+1 / 1 pts
+When an argument is passed by reference:
+  a copy of the argument's value is passed to the called method.
+  changes to the argument do not affect the original variable's value in the caller.
+Correct!
+  the called method can access the argument's value in the caller directly and modify that data.
+  the original value is removed from memory. 
+ 
+Question 17
+1 / 1 pts
+In array items, which expression below accesses the value at row 3 and column 4?
+  items[ 3 ].[ 4 ].
+  items[ 3[ 4 ]].
+Correct!
+  items[ 3 ][ 4 ].
+  items[ 3, 4 ].
+ 
+Question 18
+1 / 1 pts
+Which statement below initializes array items to contain 3 rows and 2 columns?
+Correct!
+  
+int[][] items = {{2, 4}, {6, 8}, {10, 12}};
+
+
+
+  
+int[][] items = {{2, 6, 10}, {4, 8, 12}};
+
+
+
+  int[][] items = {2, 4}, {6, 8}, {10, 12}; 
+  
+int[][] items = {2, 6, 10}, {4, 8, 12};
+
+
+
+ 
+Question 19
+1 / 1 pts
+Which of the following statements creates a multidimensional array with 3 rows, where the first row contains 1 element, the second row contains 4 elements and the final row contains 2 elements?
+  int[][] items = {{1, null, null, null}, {2, 3, 4, 5}, {6, 7, null, null}}; 
+Correct!
+  
+int[][] items = {{1}, {2, 3, 4, 5}, {6, 7}};
+
+
+
+  int[][] items = {{1}, {2, 3, 4, 5}, {6, 7}, {}); 
+  
+int[][] items = {{1}, {4}, {2}};
+
+
+
+ 
+Question 20
+1 / 1 pts
+The preferred way to traverse a two-dimensional array is to use ________.
+  a do while statement.
+  a for statement.
+Correct!
+  two nested for statements.
+  three nested for statements.

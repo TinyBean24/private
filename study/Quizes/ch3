@@ -1,0 +1,169 @@
+Question 1
+0 / 1 pts
+Sending a message to an object means that:
+Correct Answer
+  You call a method of the object. 
+  You access a variable of the object. 
+You Answered
+  Both You call a method of the object and You access a variable of the object. 
+  Neither You call a method of the object nor You access a variable of the object. 
+ 
+Question 2
+0 / 1 pts
+Method headers contain all of the following except:
+  Access modifier. 
+Correct Answer
+  Left brace. 
+  Name of method. 
+You Answered
+  Return type. 
+ 
+Question 3
+1 / 1 pts
+Every Java application is composed of at least one:
+  local variable 
+  instance variable 
+Correct!
+  public class declaration 
+  imported class 
+ 
+Question 4
+0 / 1 pts
+A class instance creation expression contains:
+  Parentheses. 
+You Answered
+  The new keyword.
+  The name of the class. 
+Correct Answer
+  All of these. 
+ 
+Question 5
+1 / 1 pts
+Calling a method of another object requires which item?
+Correct!
+  The dot separator. 
+  Open and close braces. 
+  The new keyword.
+  None of these. 
+ 
+Question 6
+1 / 1 pts
+Which of the following is a Scanner method?
+Correct!
+  nextLine.
+  nextText.
+  nextWord.
+  readNext.
+ 
+Question 7
+1 / 1 pts
+Multiple parameters are separated with what symbol?
+  Dot separator 
+Correct!
+  Comma. 
+  Parentheses. 
+  Braces. 
+ 
+Question 8
+1 / 1 pts
+Which of the following is a valid fully qualified name?
+  Scanner.
+  java.Scanner.
+  util.Scanner.
+Correct!
+  java.util.Scanner.
+ 
+Question 9
+1 / 1 pts
+Attributes of a class are also known as:
+  Constructors. 
+  Local variables. 
+Correct!
+  Fields. 
+  Classes. 
+ 
+Question 10
+1 / 1 pts
+What is the default initial value of a String instance variable?
+  " "
+  "default"
+  default
+Correct!
+  null
+ 
+Question 11
+1 / 1 pts
+What type of methods allow a client of a class to assign values to a private instance variable?
+  get methods.
+  replace methods.
+  assign methods.
+Correct!
+  set methods.
+ 
+Question 12
+1 / 1 pts
+A default constructor has how many parameters?
+Correct!
+  0. 
+  1. 
+  2. 
+  Variable. 
+ 
+Question 13
+1 / 1 pts
+Which two Java primitive types store floating-point numbers?
+  decimal and float.
+  point and double.
+Correct!
+  float and double.
+  decimal and point.
+ 
+Question 14
+1 / 1 pts
+What is the difference between a float and a double?
+  double variables store integers and float variables store floating-point numbers.
+  double variables store numbers with smaller magnitude and coarser detail.
+Correct!
+  double variables store numbers with larger magnitude and finer detail.
+  None of these. 
+ 
+Question 15
+0 / 1 pts
+Each class you create becomes a new ________ that can be used to declare variables and create objects.
+
+  package 
+You Answered
+  instance 
+  library 
+Correct Answer
+  type 
+ 
+Question 16
+1 / 1 pts
+Which of the following statements is false?
+
+  In the UML, each class is modeled in a class diagram as a rectangle with three compartments. The top one contains the class’s name centered horizontally in boldface. The middle one contains the class’s attributes, which correspond to instance variables in Java. The bottom one contains the class’s operations, which correspond to methods and constructors in Java. 
+  UML represents instance variables as an attribute name, followed by a colon and the type. 
+Correct!
+  Private attributes are preceded by the keyword private in the UML. 
+  The UML models operations by listing the operation name followed by a set of parentheses. A plus sign (+) in front of the operation name indicates that the operation is a public. 
+ 
+Question 17
+1 / 1 pts
+Java requires a ________ call for every object that’s created.
+
+Correct!
+  constructor 
+  destructor 
+  parameter 
+  default 
+ 
+Question 18
+1 / 1 pts
+Reference-type variables (called references) store ________ in memory.
+
+  the value of an object 
+  a copy of an object 
+Correct!
+  memory location of an object 
+  the size of an object 

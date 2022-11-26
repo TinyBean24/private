@@ -1,0 +1,188 @@
+Question 1
+1 / 1 pts
+Information is passed to a method in:
+  the method name. 
+  that method's return.
+  the method body. 
+Correct!
+  the arguments to the method. 
+ 
+Question 2
+1 / 1 pts
+Programs designed for maintainability are constructed from small simple pieces or modules. Modules in Java are called:
+  methods. 
+  classes. 
+  arguments. 
+Correct!
+  both methods and classes. 
+ 
+Question 3
+1 / 1 pts
+A well-designed method
+  performs multiple unrelated tasks. 
+  repeats code found in other methods. 
+  contains thousands of lines of code. 
+Correct!
+  performs a single, well-defined task. 
+ 
+Question 4
+0 / 1 pts
+To declare a method as static, place the keyword static before ________ in the method's declaration.
+  the method modifier 
+Correct Answer
+  the return type 
+You Answered
+  the method name 
+  the argument list 
+ 
+Question 5
+1 / 1 pts
+Which is a correct static method call of Math class method sqrt?
+  sqrt( 900 );
+  math.sqrt( 900 );
+Correct!
+  Math.sqrt( 900 );
+  Math math = new Math(); math.sqrt( 900 );
+ 
+Question 6
+1 / 1 pts
+Which of the following methods is not in the Math class?
+  ceil.
+  abs.
+Correct!
+  parseInt.
+  log.
+ 
+Question 7
+0 / 1 pts
+Which of the following can be an argument to a method?
+  Constants. 
+You Answered
+  Variables. 
+  Expressions. 
+Correct Answer
+  All of these. 
+ 
+Question 8
+1 / 1 pts
+Any field declared with keyword ________ is constant.
+  static
+  const
+  constant
+Correct!
+  final
+ 
+Question 9
+1 / 1 pts
+Declaring main as ________ allows the JVM to invoke main without creating an instance of the class.
+  public
+  void
+Correct!
+  static
+  final
+ 
+Question 10
+1 / 1 pts
+The parameter list in the method header and the arguments in the method call must agree in:
+  number 
+  type 
+  order 
+Correct!
+  All of these 
+ 
+Question 11
+1 / 1 pts
+Which operator can be used in string concatenation?
+  *.
+Correct!
+  +=.
+  ++.
+  =+.
+ 
+Question 12
+1 / 1 pts
+A static method can ________.
+  call only other static methods of the same class directly.
+  manipulate only static fields in the same class directly.
+  be called using the class name and a dot (.). 
+Correct!
+  All of these. 
+ 
+Question 13
+0 / 1 pts
+Which statement is false?
+Correct Answer
+  If a method does not return a value, the return-value-type in the method declaration can be omitted.
+  Placing a semicolon after the right parenthesis enclosing the parameter list of a method declaration is a syntax error. 
+  Redeclaring a method parameter as a local variable in the method's body is a compilation error.
+You Answered
+  Forgetting to return a value from a method that should return a value is a compilation error. 
+ 
+Question 14
+1 / 1 pts
+Stacks are known as ________ data structures.
+  FIFO
+  FILO
+Correct!
+  LIFO
+  LILO
+ 
+Question 15
+0 / 1 pts
+Which of the following promotions of primitive types is not allowed to occur?
+You Answered
+  char to int.
+  int to double.
+  short to long.
+Correct Answer
+  double to float.
+ 
+Question 16
+1 / 1 pts
+Which of the following statements describes block scope?
+  It begins at the opening { of the class declaration and terminates at the closing } 
+  It limits label scope to only the method in which it is declared. 
+Correct!
+  It begins at the identifier's declaration and ends at the terminating right brace (}).
+  It is valid for one statement only. 
+ 
+Question 17
+0 / 1 pts
+Which of these statements best defines scope?
+  Scope refers to the classes that have access to a variable. 
+You Answered
+  Scope determines whether a variable's value can be altered.
+  Scoping allows the programmer to use a class without using its fully qualified name. 
+Correct Answer
+  Scope is the portion of a program that can refer to an entity by its simple name. 
+ 
+Question 18
+1 / 1 pts
+Overloaded methods always have the same ________.
+Correct!
+  method name 
+  return type 
+  number of parameters 
+  order of the parameters 
+ 
+Question 19
+1 / 1 pts
+An overloaded method is one that
+  has a different name than another method, but the same parameters. 
+Correct!
+  has the same name as another method, but different parameters (by number, types or order of the types). 
+  has the same name and parameters as a method defined in another class. 
+  has the same name and parameters, but a different return type as another method. 
+ 
+Question 20
+1 / 1 pts
+Suppose method1 is declared as 
+
+void method1 ( int a, float b )
+
+Which of the following methods correctly overloads method1?
+  void method2 ( int a, float b ).
+  void method2 ( float a, int b ).
+Correct!
+  void method1 ( float a, int b ).
+  void method1 ( int b, float a ).

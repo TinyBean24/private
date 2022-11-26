@@ -1,0 +1,165 @@
+Question 1
+1 / 1 pts
+The ________ of a class are also called the public services or the public interface that the class provides to its clients.
+  public constructors.
+  public instance variables.
+Correct!
+  public methods.
+  All of these. 
+ 
+Question 2
+1 / 1 pts
+The static method ________ of class String returns a formatted String.
+  printf.
+Correct!
+  format.
+  formatString.
+  toFormatString.
+ 
+Question 3
+0 / 1 pts
+Which of the following should usually be private?
+  Methods. 
+You Answered
+  Constructors. 
+Correct Answer
+  Variables (or fields). 
+  All of these. 
+ 
+Question 4
+1 / 1 pts
+Which of the following statements is true?
+Correct!
+  Methods and instance variables can both be either public or private.
+  Information hiding is achieved by restricting access to class members via keyword public.
+  The private members of a class are directly accessible to the client of a class.
+  None of these is true. 
+ 
+Question 5
+1 / 1 pts
+A constructor cannot:
+  be overloaded. 
+  initialize variables to their defaults. 
+Correct!
+  specify return types or return values. 
+  have the same name as the class. 
+ 
+Question 6
+1 / 1 pts
+Constructors:
+  Initialize instance variables. 
+  When overloaded, can have identical argument lists. 
+  When overloaded, are selected by number, types and order of types of parameters. 
+Correct!
+  Initialize instance variables and When overloaded, are selected by number, types and order of types of parameters. 
+ 
+Question 7
+1 / 1 pts
+A programmer-defined constructor that has no arguments is called a ________.
+  zero-argument constructor. 
+Correct!
+  no-argument constructor. 
+  default constructor. 
+  main constructor. 
+ 
+Question 8
+0 / 1 pts
+What happens when this is used in a constructor's body to call another constructor of the same class if that call is not the first statement in the constructor?
+Correct Answer
+  A compilation error occurs. 
+You Answered
+  A runtime error occurs. 
+  A logic error occurs. 
+  Nothing happens. The program compiles and runs. 
+ 
+Question 9
+1 / 1 pts
+When implementing a method, use the class's set and get methods to access the class's ________ data.
+  public
+Correct!
+  private
+  protected
+  All of these. 
+ 
+Question 10
+1 / 1 pts
+Set methods are also commonly called ________ methods and get methods are also commonly called ________ methods.
+  query, mutator. 
+  accessor, mutator. 
+Correct!
+  mutator, accessor. 
+  query, accessor. 
+ 
+Question 11
+0 / 1 pts
+Using public set methods provides data integrity if:
+  The instance variables are public.
+You Answered
+  The instance variables are private.
+  The methods perform validity checking. 
+Correct Answer
+  Both The instance variables are private and The methods perform validity checking.
+ 
+Question 12
+0 / 1 pts
+Static class variables:
+You Answered
+  are final.
+  are public.
+  are private.
+Correct Answer
+  are shared by all objects of a class. 
+ 
+Question 13
+1 / 1 pts
+Which of the following is false?
+  A static method must be used to access private static instance variables.
+  A static method has no this reference.
+  A static method can be accessed even when no objects of its class have been instantiated.
+Correct!
+  A static method can call instance methods directly.
+ 
+Question 14
+1 / 1 pts
+Instance variables declared final do not or cannot:
+  Cause syntax errors if used as a left-hand value. 
+  Be initialized. 
+Correct!
+  Be modified. 
+  None of these. 
+ 
+Question 15
+1 / 1 pts
+A final field should also be declared ________ if it is initialized in its declaration.
+  private.
+  public.
+  protected.
+Correct!
+  static.
+ 
+Question 16
+1 / 1 pts
+Java programmers do not focus on:
+  Crafting new classes and reusing existing classes. 
+Correct!
+  Know the detailed code inside class library implementations. 
+  Carefully testing classes they design. 
+  Carefully documenting classes they design. 
+ 
+Question 17
+1 / 1 pts
+Which of the following does not contribute to improved software reusability?
+Correct!
+  Quickly creating new class libraries without testing them thoroughly. 
+  Licensing schemes and protection mechanisms. 
+  Descriptions of classes that allow programmers to determine whether a class fits their needs. 
+  Cataloging schemes and browsing mechanisms. 
+ 
+Question 18
+1 / 1 pts
+The term "information hiding" refers to:
+  public methods.
+Correct!
+  Hiding implementation details from clients of a class. 
+  Accessing static class members.
+  The process of releasing an object for garbage collection. 

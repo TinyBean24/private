@@ -1,0 +1,224 @@
+Question 1
+1 / 1 pts
+End-of-line comments that should be ignored by the compiler are denoted using
+Correct!
+  Two forward slashes ( // ). 
+  Three forward slashes ( /// ). 
+  A slash and a star ( /* ). 
+  A slash and two stars (/** ). 
+ 
+Question 2
+1 / 1 pts
+Which of the following is not a valid Java identifier?
+Correct!
+  my Variable
+  $_Value
+  widthValue
+  my_variable
+ 
+Question 3
+1 / 1 pts
+Which of the following cannot cause a syntax error to be reported by the Java compiler?
+  Mismatched {} 
+  Missing */ in a comment that begins with /* 
+  Missing ; 
+Correct!
+  Extra blank lines. 
+ 
+Question 4
+1 / 1 pts
+Which of the following is not a syntax error?
+  System.out.println( 'Hello world!' ):
+  System.out.println( "Hello
+                     world!" );
+Correct!
+  System.out.println( "Hello world!" );
+  System.out.println( Hello world! );
+ 
+Question 5
+1 / 1 pts
+Which command compiles the Java source code file Welcome.java?
+  cd Welcome.java
+Correct!
+  javac Welcome.java
+  java Welcome.java
+  compile Welcome.java
+ 
+Question 6
+1 / 1 pts
+Which command executes the Java class file Welcome.class?
+  javac Welcome.class
+  java Welcome.class
+Correct!
+  java Welcome
+  run Welcome.class
+ 
+Question 7
+1 / 1 pts
+Which is the output of the following statements?
+     System.out.print("Hello  ");
+     System.out.print("World");
+Correct!
+  Hello World
+  HelloWorld
+  Hello
+World
+  World
+Hello
+ 
+Question 8
+1 / 1 pts
+Which of the following characters is the escape character?
+  *
+Correct!
+  \
+  \n
+  "
+ 
+Question 9
+1 / 1 pts
+Which of the following statements will print a single line containing "hello there"?
+  System.out.println( "hello" );
+System.out.println( " there" ); 
+  System.out.println( "hello" , " there" ); 
+  System.out.println( "hello" );
+System.out.print( " there" ); 
+Correct!
+  System.out.print( "hello" ); 
+System.out.println( " there" ); 
+ 
+Question 10
+1 / 1 pts
+When method printf requires multiple arguments, the arguments are separated with ________.
+  colons (:) 
+  semicolons (;) 
+Correct!
+  commas (,) 
+  periods (.) 
+ 
+Question 11
+1 / 1 pts
+Which of the following statement displays Hello World?
+  System.out.printf( "%2s", "Hello " "World" );
+Correct!
+  System.out.printf( "%s %s", "Hello", "World" );
+  System.out.printf( "%s%s", "Hello, World" );
+  System.out.printf( "s% s%", "Hello", "World" );
+ 
+Question 12
+1 / 1 pts
+All import declarations must be placed
+  inside the class declaration's body.
+Correct!
+  before the class declaration. 
+  after the class declaration. 
+  all of these will work. 
+ 
+Question 13
+1 / 1 pts
+Which of the following is a variable declaration statement?
+Correct!
+  int total;
+  import java.util.Scanner;
+  public static void main( String args[] )
+  // first string entered by user
+ 
+Question 14
+1 / 1 pts
+A(n) ________ enables a program to read data from the user.
+  printf
+  import declaration
+Correct!
+  Scanner
+  main
+ 
+Question 15
+1 / 1 pts
+Which of the following is not a Java primitive type?
+  char
+  byte
+Correct!
+  real
+  double
+ 
+Question 16
+1 / 1 pts
+The format specifier ________ is a place-holder for an int value?
+  %a
+Correct!
+  %d
+  %int
+  %s
+ 
+Question 17
+1 / 1 pts
+What is the value of result after the following Java statements execute?
+int a, b, c, d, result;
+a = 4;
+b = 12;
+c = 38;
+d = 51;
+result = d % a * c/4 + (a/b - d/2); 
+
+ 
+  7 
+  53 
+  2 
+Correct!
+  3 
+ 
+Question 18
+1 / 1 pts
+Which of the following is not an arithmetic operator?
+  + 
+  - 
+Correct!
+  . 
+  % 
+ 
+Question 19
+1 / 1 pts
+What will be output after the following Java statements have been executed?
+int a, b, c, d;
+a = 4;
+b = 12;
+c = 37;
+d = 51;
+if ( a < b )
+
+           System.out.println( "a < b" );
+
+if ( a > b )
+
+           System.out.println( "a > b" );
+
+if ( d <= c )
+
+           System.out.println( "d <= c" );
+
+if ( c!= d )
+
+           System.out.println( "c != d" );
+
+
+
+Correct!
+  a < b
+c != d
+  a < b
+d <= c 
+c != d 
+  a > b 
+c != d
+  a < b
+c < d 
+a != b
+ 
+Question 20
+1 / 1 pts
+Each of the following is a relational or equality operator except:
+  <=
+Correct!
+  =! 
+  == 
+  >

@@ -1,0 +1,269 @@
+Question 1
+1 / 1 pts
+Counter-controlled repetition requires
+  A control variable and initial value. 
+  A control variable increment (or decrement). 
+  A condition that tests for the final value of the control variable. 
+Correct!
+  All of these. 
+ 
+Question 2
+1 / 1 pts
+The control variable of a counter-controlled loop should be declared as ________ to prevent errors.
+Correct!
+  int.
+  float.
+  double.
+  Any of these. 
+ 
+Question 3
+0 / 1 pts
+Consider the following two Java code segments:
+Segment 1
+int i = 0;
+
+while (i < 20)
+{
+    i++;
+    System.out.println(i);
+}
+
+Segment 2
+for (int i = 0; i <= 20; i++)
+    System.out.println(i);
+
+Which of the following statements are true?
+  The output from these segments is not the same. 
+  The scope of the control variable i is different for the two segments.
+Correct Answer
+  The output from these segments is not the same. And the scope of the control variable i is different for the two segments.
+You Answered
+  The output from these segments is not the same. But the scope of the control variable i is same for the two segments.
+ 
+Question 4
+1 / 1 pts
+Consider the classes below:
+public class TestA
+{
+   public static void main(String args[])
+    {
+       int x = 2;
+       int y = 20
+       int counter = 0;
+        for (int j = y % x; j < 100; j += (y / x))
+             counter++;
+   }
+}
+
+public class TestB
+
+{
+   public static void main(String args[])
+   {
+      int counter = 0;
+      for (int j = 10; j > 0; --j)
+          ++counter;
+   }
+}
+Which of the following statements is true?
+  The value of counter will be different at the end of each for loop for each class.
+  The value of j will be the same for each loop for all iterations
+  The value of counter will be different at the end of each for loop for each class. And ehe value of j will be the same for each loop for all iterations.
+Correct!
+  The value of counter will be the same at the end of each for loop for each class. But the value of j will be different for each loop for all iterations.
+ 
+Question 5
+1 / 1 pts
+Which of the following for-loop control headers results in equivalent numbers of iterations:
+A. for ( int q = 1; q <= 100; q++ )
+B. for ( int q = 100; q >= 0; q-- )
+C. for ( int q = 99; q > 0; q -= 9 ) 
+D. for ( int q = 990; q > 0; q -= 90 ) 
+  A and B. 
+Correct!
+  C and D. 
+  A and B have equivalent iterations and C and D have equivalent iterations. 
+  None of the loops have equivalent iterations. 
+ 
+Question 6
+1 / 1 pts
+Which of the following will count down from 10 to 1 correctly?
+  for ( int j = 10; j <= 1; j++ )
+  for ( int j = 1; j <= 10; j++ )
+  for ( int j = 10; j > 1; j-- )
+Correct!
+  for ( int j = 10; j >= 1; j-- )
+ 
+Question 7
+1 / 1 pts
+Which statement prints the floating-point value 123.456 right justified with a field width of 10?
+  System.out.printf( "%d10.3", 123.456 );
+  System.out.printf( "%10.3d", 123.456 );
+  System.out.printf( "%f10.3", 123.456 );
+Correct!
+  System.out.printf( "%10.3f", 123.456 );
+ 
+Question 8
+0 / 1 pts
+Which formatting flag indicates that the floating-point values should be output with a thousands separator?
+  plus (+). 
+  minus (-). 
+Correct Answer
+  comma (,). 
+You Answered
+  period (.). 
+ 
+Question 9
+1 / 1 pts
+Which of the following statements about a do . . . while repetition statement is true?
+  The body of a do . . . while loop is executed only if the terminating condition is true.
+  The body of a do . . . while loop is executed only once.
+Correct!
+  The body of a do . . . while loop is always executed at least once.
+  None of these 
+ 
+Question 10
+1 / 1 pts
+For the two code segments below:
+Segment A
+int q = 5;
+switch(q)
+{
+case 1:
+    System.out.println(1);
+case 2:
+    System.out.println(2);
+case 3:
+    System.out.println(3);
+case 4:
+    System.out.println(4);
+case 5:
+    System.out.println(5);
+default:
+    System.out.println("default");
+}
+
+
+Segment B
+
+q = 4;
+switch(q)
+{
+case 1:
+    System.out.println(1);
+case 2:
+    System.out.println(2);
+case 3:
+    System.out.println(3);
+case 4:
+    System.out.println(4);
+case 5:
+    System.out.println(5);
+default:
+    System.out.println("default");
+
+}
+
+  
+Which of the following statements is true?
+  The output for Segment A is:  
+default
+  The output for Segment B is: 
+4
+  The output for Segment B is:  
+45default
+Correct!
+  The output for Segment A is: 
+5
+default
+ 
+Question 11
+1 / 1 pts
+Which of the following can be used in the expression after keyword case?
+A. a constant integral expression.
+B. a character constant.
+C. a constant.
+D. an enumeration constant.
+  A and B. 
+  A and C. 
+  B and C. 
+Correct!
+  All. 
+ 
+Question 12
+0 / 1 pts
+Which of the following statements about the break statement is false?
+  The break statement is used to exit a repetition structure early and continue execution after the loop.
+  A break statement can only break out of an immediately enclosing while, for, do . . . while or switch statement.
+Correct Answer
+  The break statement, when executed in a while, for or do . . . while, skips the remaining statements in the loop body and proceeds with the next iteration of the loop.
+You Answered
+  Common uses of the break statement are to escape early from a loop or to skip the remainder of a switch.
+ 
+Question 13
+0 / 1 pts
+Which of the following statements about the continue statement is true?
+You Answered
+  The continue statement is used to exit a repetition structure early and continue execution after the loop.
+  The continue statement is used to continue after a switch statement.
+  The continue statement does not alter the flow of control.
+Correct Answer
+  A continue statement proceeds with the next iteration of the immediately enclosing while, for, dowhile statement.
+ 
+Question 14
+1 / 1 pts
+To exit out of a loop completely, and resume the flow of control at the next line in the method, use ________.
+  A continue statement.
+Correct!
+  A break statement.
+  A return statement.
+  Any of these. 
+ 
+Question 15
+1 / 1 pts
+Consider the code segment below.
+if (gender == 1)
+{
+    if (age >= 65)
+        ++seniorFemales;
+}
+
+This segment is equivalent to which of the following?
+  if (gender == 1 || age >= 65)
+    ++seniorFemales;
+Correct!
+  if (gender == 1 && age >= 65)
+++seniorFemales;
+  if (gender == 1 AND age >= 65)
+++seniorFemales;
+  if (gender == 1 OR age >= 65)
+++seniorFemales;
+ 
+Question 16
+0 / 1 pts
+Suppose variable gender is MALE and age equals 60, how is the following expression evaluated?
+(gender == FEMALE) && (age >= 65)
+Correct Answer
+  The condition ( gender == FEMALE ) is evaluated first and the evaluation stops immediately.
+  The condition ( age >= 65 ) is evaluated first and the evaluation stops immediately.
+You Answered
+  Both conditions are evaluated, from left to right. 
+  Both conditions are evaluated, from right to left. 
+ 
+Question 17
+1 / 1 pts
+Which expression is equivalent to if ( ! ( grade == sentinelValue ) ) ?
+  if ( grade !== sentinelValue ).
+Correct!
+  if ( grade != sentinelValue ).
+  ! if ( grade == sentinelValue ).
+  ! if ( grade !== sentinelValue ).
+ 
+Question 18
+1 / 1 pts
+The boolean values can be displayed with the ________ format specifier.
+  %a.
+Correct!
+  %b.
+  %c.
+  %bool.

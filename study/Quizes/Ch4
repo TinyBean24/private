@@ -1,0 +1,198 @@
+Question 1
+1 / 1 pts
+Local variables must be ________.
+  initialized when they are declared. 
+Correct!
+  initialized before their values are used in an expression. 
+  declared and initialized in two steps. 
+  declared at the top of the method's body.
+ 
+Question 2
+1 / 1 pts
+Which statement is true?
+  A while statement cannot be nested inside another while statement.
+  An if statement cannot be nested inside another if statement.
+  A while statement cannot be nested inside an if statement.
+Correct!
+  None of these is true. 
+ 
+Question 3
+1 / 1 pts
+Which of the following code segments does not increment val by 3:
+  val += 3;
+  val = val+1;
+val = val+1;
+val = val+1;
+Correct!
+  c = 3;
+val = val + (c == 3 ? 2 : 3);
+  All of these increment val by 3.
+ 
+Question 4
+0 / 1 pts
+Which of the following operators associates from left to right?
+  =
+You Answered
+  ?:
+  %=
+Correct Answer
+  /
+ 
+Question 5
+0 / 1 pts
+Java is considered a strongly typed language because:
+  The primitive types in Java are portable across all computer platforms that support Java. 
+Correct Answer
+  Java requires all variables to have a type before they can be used in a program. 
+  Instance variables of the primitive types are automatically assigned a default value. 
+You Answered
+  All of these. 
+ 
+Question 6
+1 / 1 pts
+Which of the following is not a primitive type?
+  char
+  float
+Correct!
+  String
+  int
+ 
+Question 7
+1 / 1 pts
+Which of the following is true?
+  Pseudocode is used to describe an algorithm. 
+  Pseudocode is translatable by the programmer into a programming language (like Java). 
+  Pseudocode is used to describe executable statements that will eventually be translated by the programmer into a program. 
+Correct!
+  All of these. 
+ 
+Question 8
+1 / 1 pts
+Which of the following is not a control structure:
+  Sequence structure. 
+  Selection structure. 
+  Repetition structure. 
+Correct!
+  Declaration structure. 
+ 
+Question 9
+0 / 1 pts
+Which of the following is the shape of an action-state symbol?
+  Diamond. 
+  Circle. 
+Correct Answer
+  Rectangle with left and right sides replaced with arcs curving outward. 
+You Answered
+  Rounded rectangle. 
+ 
+Question 10
+1 / 1 pts
+Which of the following is a double-selection control statement?
+  do . . . while.
+  for.
+Correct!
+  if . . . else.
+  if.
+ 
+Question 11
+1 / 1 pts
+What is output by the following Java code segment?
+int temp;
+temp = 200;
+if (temp > 90)
+    System.out.println("This porridge is too hot.");
+if (temp < 70)
+    System.out.println("This porridge is too cold.");
+if (temp == 80)
+    System.out.println("This porridge is just right!");
+
+Correct!
+  This porridge is too hot. 
+  This porridge is too cold. 
+  This porridge is just right! 
+  None of these. 
+ 
+Question 12
+1 / 1 pts
+A decision symbol in an activity diagram takes the shape of a ________.
+Correct!
+  Diamond. 
+  Rectangle. 
+  Circle. 
+  Triangle. 
+ 
+Question 13
+1 / 1 pts
+Which statement is true?
+  Both syntax errors and logic errors are caught by the compiler. 
+  Both syntax errors and logic errors have effects at execution time. 
+Correct!
+  Syntax errors are caught by the compiler. Logic errors have effects at execution time. 
+  Logic errors are caught by the compiler. Syntax errors have effects at execution time. 
+ 
+Question 14
+0 / 1 pts
+Which of the following may not be an error (either a syntax error or a logic error)?
+  Neglecting to include an action in the body of a while statement that will eventually cause the condition to become false.
+You Answered
+  Spelling a keyword (such as while or if) with a capitalized first letter.
+Correct!
+  Using a condition for a while statement that is initially false.
+  An infinite loop. 
+ 
+Question 15
+0 / 1 pts
+Counter-controlled repetition is also known as:
+Correct Answer
+  Definite repetition 
+  Indefinite repetition 
+You Answered
+  Multiple-repetition structure 
+  Double-repetition structure 
+ 
+Question 16
+1 / 1 pts
+How many times is the body of the loop below executed?
+int counter;
+counter = 1;
+while (counter > 20)
+
+{
+
+// body of loop
+
+counter = counter - 1;
+
+} // end while
+  19. 
+  20. 
+  21. 
+Correct!
+  0. 
+ 
+Question 17
+1 / 1 pts
+Which statement is true?
+  Dividing two integers results in integer division. 
+  With integer division, any fractional part of the calculation is lost. 
+  With integer division, any fractional part of the calculation is truncated. 
+Correct!
+  All of these. 
+ 
+Question 18
+1 / 1 pts
+What is the result value of c at the end of the following code segment?
+
+int c = 8;
+
+c++;
+
+++c;
+
+c %= 5;
+
+Correct!
+  0 
+  1 
+  3 
+  2 

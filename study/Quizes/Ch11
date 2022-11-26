@@ -1,0 +1,155 @@
+Question 1
+1 / 1 pts
+Which of the following statements is false?
+  Exception handling enables programmers to write robust and fault-tolerant programs. 
+Correct!
+  Exception handling can catch but not resolve exceptions. 
+  Exception handling can resolve exceptions. 
+  All of these are true. 
+ 
+Question 2
+0 / 1 pts
+Which of the following statements is true?
+  Using existing exceptions makes the program less robust. 
+  Always create your own exception classes. 
+Correct Answer
+  Like any other class, an exception class can contain fields and methods. 
+You Answered
+  The new exception class should extend RuntimeException if the program should be required to handle the exception.
+ 
+Question 3
+0 / 1 pts
+When an exception occurs it is said to have been:
+You Answered
+  caught. 
+Correct Answer
+  thrown. 
+  declared. 
+  handled. 
+ 
+Question 4
+0 / 1 pts
+Which of the following is not included in an exception's stack trace?
+  A descriptive message for the exception. 
+You Answered
+  The method-call stack at the time the exception occurred. 
+  The name of the exception. 
+Correct Answer
+  Instructions on handling the exception. 
+ 
+Question 5
+1 / 1 pts
+To catch an exception, the code that might throw the exception must be enclosed in a
+  throws block.
+  catch block.
+Correct!
+  try block.
+  finally block.
+ 
+Question 6
+1 / 1 pts
+Exceptions can be thrown by:
+  the Java Virtual Machine. 
+  code in a try block.
+  calls from a try block to other methods.
+Correct!
+  All of these. 
+ 
+Question 7
+1 / 1 pts
+In the catch block below, what is e?
+catch (ArithmeticException e)
+{
+       System.err.printf(e);
+}
+  The type of the exception being caught. 
+Correct!
+  The name of catch block's exception parameter.
+  A finally block.
+  An exception handler. 
+ 
+Question 8
+1 / 1 pts
+An uncaught exception:
+  is a possible exception that never actually occurs during the execution of the program. 
+  is an exception that occurs for which the matching catch clause is empty.
+Correct!
+  is an exception that occurs for which there are no matching catch clauses.
+  is another term for a thrown exception. 
+ 
+Question 9
+0 / 1 pts
+Which of the following statements about try blocks is true?
+You Answered
+  The try block must be followed by at least one catch block.
+  The try block must be followed by a finally block.
+  The try block should contain statements that may process an exception.
+Correct Answer
+  The try block should contain statements that may throw an exception.
+ 
+Question 10
+0 / 1 pts
+In Java, after an exception is handled, control resumes ________. This is known as the ________ model of exception handling.
+Correct Answer
+  after the last catch block (or the finally block, if there is one), termination
+  after the last catch block (or the finally block, if there is one), resumption
+  just after the throw point, termination 
+You Answered
+  just after the throw point, resumption 
+ 
+Question 11
+1 / 1 pts
+What is the difference between a try block and a try statement?
+  There is no difference; the terms can be used interchangeably. 
+  A try statement refers to the block of code following the keyword try, while the try block refers to the try keyword and the block of code following this keyword.
+Correct!
+  The try block refers to the keyword try followed by a block of code. The try block and its corresponding catch and/or finally clauses together form a try statement.
+  The try statement refers to the keyword try followed by a block of code. The try statement and its corresponding catch and/or finally clauses together form a try block.
+ 
+Question 12
+0 / 1 pts
+The throws clause of a method:
+  specifies the exceptions a method catches. 
+  specifies the exceptions thrown by the calling method. 
+Correct Answer
+  specifies the exceptions a method throws. 
+You Answered
+  specifies the exceptions a method throws and catches. 
+ 
+Question 13
+1 / 1 pts
+All exception classes inherit, either directly or indirectly, from:
+  class Error.
+  class RuntimeException.
+Correct!
+  class Throwable.
+  None of these. 
+ 
+Question 14
+0 / 1 pts
+Which of the following statements is true?
+  The code in a finally block is executed only if an exception occurs.
+  The code in a finally block is executed only if an exception does not occur.
+You Answered
+  The code in a finally block is executed only if there are no catch blocks.
+Correct Answer
+  None of these are true. 
+ 
+Question 15
+1 / 1 pts
+After a finally block has finished executing (and there are no exceptions to be handled):
+Correct!
+  control proceeds to the first statement after the finally block.
+  control returns to the throw point. 
+  the application exits. 
+  control proceeds to the first statement after the last catch block.
+ 
+Question 16
+0 / 1 pts
+Which of the following statements is false?
+  A finally block is placed after the last catch block.
+  A finally block typically releases resources acquired in the corresponding try block.
+Correct Answer
+  The finally block and try block can appear in any order.
+You Answered
+  A finally block is optional.

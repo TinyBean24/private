@@ -1,0 +1,173 @@
+Question 1
+0 / 1 pts
+Which of the following is not a superclass/subclass relationship?
+  Ford/Taurus. 
+  University/Brown University. 
+Correct Answer
+  Sailboat/Tugboat. 
+You Answered
+  Country/USA. 
+ 
+Question 2
+1 / 1 pts
+An advantage of inheritance is that:
+  All methods can be inherited. 
+  All instance variables can be uniformly accessed by subclasses and superclasses. 
+Correct!
+  Objects of a subclass can be treated like objects of their superclass. 
+  None of these. 
+ 
+Question 3
+1 / 1 pts
+Which of the following keywords allows a subclass to access a superclass method even when the subclass has overridden the superclass method?
+  base.
+  this.
+  public.
+Correct!
+  super.
+ 
+Question 4
+1 / 1 pts
+Using the protected keyword gives a member:
+  public access.
+Correct!
+  package access. 
+  private access.
+  block scope.
+ 
+Question 5
+0 / 1 pts
+Overriding a method differs from overloading a method because:
+  Overloaded methods have the same signature. 
+Correct Answer
+  Overridden methods have the same signature. 
+  Both of these. 
+You Answered
+  Neither of these. 
+ 
+Question 6
+1 / 1 pts
+To avoid duplicating code, use ________, rather than ________.
+Correct!
+  inheritance, the "copy-and-paste" approach
+  the "copy-and-paste" approach, inheritance
+  a class that explicitly extends Object, a class that does not extend Object
+  a class that does not extend Object, a class that explicitly extends Object
+ 
+Question 7
+1 / 1 pts
+Consider the classes below, declared in the same file:
+class A
+{
+    int a;
+    public A()
+   {
+       a = 7;
+    }
+}
+
+class B extends A
+{
+    int b;
+    public B()
+   {
+        b = 8;
+   }
+}
+Which of the statements below is false?
+  Both variables a and b are instance variables. 
+  After the constructor for class A executes, the variable a will have the value 7.
+  After the constructor for class B executes, the variable b will have the value 8.
+Correct!
+  A reference of type A can be treated as a reference of type B. 
+ 
+Question 8
+1 / 1 pts
+Which superclass members are inherited and can be accessible directly by all subclasses of that superclass?
+  private instance variables and methods.
+Correct!
+  protected instance variables and methods.
+  private constructors.
+  protected constructors.
+ 
+Question 9
+1 / 1 pts
+Which statement is true when a superclass has protected instance variables?
+  A subclass object can assign an invalid value to the superclass's instance variables, thus leaving an object in an inconsistent state.
+  Subclass methods are more likely to be written so that they depend on the superclass's data implementation.
+  We may need to modify all the subclasses of the superclass if the superclass implementation changes. 
+Correct!
+  All of these. 
+ 
+Question 10
+1 / 1 pts
+private fields of a superclass can be accessed in a subclass.
+  by calling private methods declared in the superclass.
+Correct!
+  by calling public or protected methods declared in the superclass.
+  directly. 
+  All of these. 
+ 
+Question 11
+0 / 1 pts
+When a subclass constructor calls its superclass constructor, what happens if the superclass's constructor does not assign a value to an instance variable?
+  A syntax error occurs. 
+You Answered
+  A compile-time error occurs. 
+  A run-time error occurs. 
+Correct Answer
+  The program compiles and runs because the instance variables are initialized to their default values. 
+ 
+Question 12
+0 / 1 pts
+Which of the following statements is (are) true?
+A. We can use inheritance to customize existing software.
+B. A superclass specifies commonality.
+C. A superclass can be modified without modifying subclasses
+D. A subclass can be modified without modifying its superclass.
+Correct Answer
+  All of these. 
+  None of these. 
+  A, B and C. 
+You Answered
+  A, B and D. 
+ 
+Question 13
+1 / 1 pts
+Inheritance is also known as the
+
+  pass relationship. 
+  has-a relationship. 
+  uses-a relationship. 
+Correct!
+  is-a relationship. 
+ 
+Question 14
+1 / 1 pts
+Superclass methods with this level of access cannot be called from subclasses.
+
+Correct!
+  private 
+  public 
+  protected 
+  package 
+ 
+Question 15
+1 / 1 pts
+Every class in Java, except ________, extends an existing class.
+  Integer 
+Correct!
+  Object 
+  String 
+  Class 
+ 
+Question 16
+0 / 1 pts
+Which of the following is the superclass constructor call syntax?
+
+You Answered
+  keyword super, followed by a dot (.) . 
+Correct Answer
+  keyword super, followed by a set of parentheses containing the superclass constructor arguments. 
+  keyword super, followed by a dot and the superclass constructor name. 
+  name of the super class, followed by a dot. 

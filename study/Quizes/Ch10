@@ -1,0 +1,150 @@
+Question 1
+1 / 1 pts
+Polymorphism enables you to:
+Correct!
+  program in the general. 
+  program in the specific. 
+  absorb attributes and behavior from previous classes. 
+  hide information from the user. 
+ 
+Question 2
+0 / 1 pts
+For which of the following would polymorphism not provide a clean solution?
+  A billing program where there is a variety of client types that are billed with different fee structures. 
+You Answered
+  A maintenance log program where data for a variety of types of machines is collected and maintenance schedules are produced for each machine based on the data collected. 
+Correct Answer
+  A program to compute a 5% savings account interest for a variety of clients. 
+  An IRS program that maintains information on a variety of taxpayers and determines who to audit based on criteria for classes of taxpayers. 
+ 
+Question 3
+1 / 1 pts
+Polymorphism allows for specifics to be dealt with during:
+Correct!
+  execution. 
+  compilation. 
+  programming. 
+  debugging. 
+ 
+Question 4
+0 / 1 pts
+If the superclass contains only abstract method declarations, the superclass is used for:
+  implementation inheritance. 
+Correct Answer
+  interface inheritance. 
+You Answered
+  Both. 
+  Neither. 
+ 
+Question 5
+1 / 1 pts
+Which of the following could be used to declare abstract method method1 in abstract class Class1 (method1 returns an int and takes no arguments)?
+  public int method1(); 
+  public int abstract method1(); 
+Correct!
+  public abstract int method1(); 
+  public int nonfinal method1(); 
+ 
+Question 6
+0 / 1 pts
+Which of the following statements about abstract superclasses is true?
+Correct Answer
+  abstract superclasses may contain data.
+  abstract superclasses may not contain implementations of methods.
+  abstract superclasses must declare all methods as abstract.
+You Answered
+  abstract superclasses must declare all data members not given values as abstract.
+ 
+Question 7
+0 / 1 pts
+Consider the abstract superclass below:
+public abstract class Foo
+{
+    private int a;
+    public int b;
+
+    public Foo(int aVal, int bVal)
+    {
+         a = aVal;
+         b = bVal;
+    }
+
+    public abstract int calculate();
+}
+Any concrete subclass that extends class Foo:
+  Must implement a method called calculate. 
+You Answered
+  Will not be able to access the instance variable a. 
+  Neither Must implement a method called calculate nor Will not be able to access the instance variable a. 
+Correct Answer
+  Both Must implement a method called calculate nor Will not be able to access the instance variable a. 
+ 
+Question 8
+1 / 1 pts
+Consider classes A, B and C, where A is an abstract superclass, B is a concrete class that inherits from A and C is a concrete class that inherits from B. Class A declares abstract method originalMethod, implemented in class B. Which of the following statements is true of class C?
+  Method originalMethod cannot be overridden in class C-once it has been implemented in concrete class B, it is implicitly final.
+  Method originalMethod must be overridden in class C, or a syntax error will occur.
+  If method originalMethod is not overridden in class C but is called by an object of class C, an error occurs.
+Correct!
+  None of these. 
+ 
+Question 9
+1 / 1 pts
+A(n) ____________  class cannot be instantiated.
+
+  final 
+  concrete 
+Correct!
+  abstract 
+  concrete super 
+ 
+Question 10
+1 / 1 pts
+Non-abstract classes are called ________.
+
+  real classes 
+  instance classes 
+  implementable classes 
+Correct!
+  concrete classes 
+ 
+Question 11
+1 / 1 pts
+When a superclass variable refers to a subclass object and a method is called on that object, the proper implementation is determined at execution time. What is the process of determining the correct method to call?
+
+  early binding. 
+  non-binding. 
+  on-time binding. 
+Correct!
+  late/dynamic binding. 
+ 
+Question 12
+1 / 1 pts
+Every object in Java knows its own class and can access this information through method _______.
+
+Correct!
+  getClass 
+  getInformation 
+  ObjectClass 
+  ObjectInformation 
+ 
+Question 13
+0 / 1 pts
+Assigning a subclass reference to a superclass variable is safe ________.
+
+  because the subclass object has an object of its superclass. 
+Correct Answer
+  because the subclass object is an object of its superclass. 
+  only when the superclass is abstract. 
+You Answered
+  only when the superclass is concrete. 
+ 
+Question 14
+1 / 1 pts
+What is(are) true about interface? (Choose all that apply)
+Correct!
+  Interface can contains abstract methods, default methods, and static methods 
+  Interface can be instantiated 
+  Interface can only have 1 method 
+Correct!
+  Interface forces classes that implement it to declare all the abstract interface methods. 
