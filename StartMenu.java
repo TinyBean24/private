@@ -1,11 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package main1.finalproject2;
+
 /**
  *
- * @author samestrada
+ * @author user01
  */
-package myhw.finalproject;
-
-//import java.awt.*;
-//import javax.swing.*;
 public class StartMenu extends javax.swing.JFrame {
 
     /**
@@ -24,59 +26,108 @@ public class StartMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
+        mainMenuBar = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        newGameFileMenuItem = new javax.swing.JMenuItem();
+        exitFileMenuItem = new javax.swing.JMenuItem();
+        helpMenu = new javax.swing.JMenu();
+        htpHelpMenuItem = new javax.swing.JMenuItem();
+        aboutHelpMenuItem = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Tic Tac Toe");
+        setLocation(new java.awt.Point(735, 300));
+        setName("mainFrame"); // NOI18N
+        setResizable(false);
 
-        jButton1.setText("Start");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jMenu1.setText("File");
+
+        newGameFileMenuItem.setText("New Game");
+        newGameFileMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                newGameFileMenuItemActionPerformed(evt);
             }
         });
+        jMenu1.add(newGameFileMenuItem);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(61, 61, 61)
-                .addComponent(jButton1)
-                .addContainerGap(77, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(61, 61, 61)
-                .addComponent(jButton1)
-                .addContainerGap(85, Short.MAX_VALUE))
-        );
+        exitFileMenuItem.setText("Exit");
+        exitFileMenuItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exitFileMenuItemActionPerformed(evt);
+            }
+        });
+        jMenu1.add(exitFileMenuItem);
+
+        mainMenuBar.add(jMenu1);
+
+        helpMenu.setText("Help");
+
+        htpHelpMenuItem.setText("How to Play");
+        htpHelpMenuItem.setNextFocusableComponent(mainMenuBar);
+        htpHelpMenuItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                htpHelpMenuItemActionPerformed(evt);
+            }
+        });
+        helpMenu.add(htpHelpMenuItem);
+
+        aboutHelpMenuItem.setText("About");
+        aboutHelpMenuItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                aboutHelpMenuItemActionPerformed(evt);
+            }
+        });
+        helpMenu.add(aboutHelpMenuItem);
+
+        mainMenuBar.add(helpMenu);
+
+        setJMenuBar(mainMenuBar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(100, Short.MAX_VALUE))
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(54, 54, 54)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(77, Short.MAX_VALUE))
+            .addGap(0, 277, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>                        
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void exitFileMenuItemActionPerformed(java.awt.event.ActionEvent evt) {                                                 
         // TODO add your handling code here:
-        new TicTacToeGUI().setVisible(true);
-    }                                        
+        System.exit(0);
+    }                                                
+
+    private void htpHelpMenuItemActionPerformed(java.awt.event.ActionEvent evt) {                                                
+        // TODO add your handling code here:
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new HowToPlay().setVisible(true);
+            }
+        });
+    }                                               
+
+    private void aboutHelpMenuItemActionPerformed(java.awt.event.ActionEvent evt) {                                                  
+        // TODO add your handling code here:
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new aboutClass().setVisible(true);
+            }
+        });
+    }                                                 
+
+    private void newGameFileMenuItemActionPerformed(java.awt.event.ActionEvent evt) {                                                    
+        // TODO add your handling code here:
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new TicTacToeGUI().setVisible(true);
+            }
+        });
+    }                                                   
 
     /**
      * @param args the command line arguments
@@ -114,7 +165,12 @@ public class StartMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify                     
-    private javax.swing.JButton jButton1;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JMenuItem aboutHelpMenuItem;
+    private javax.swing.JMenuItem exitFileMenuItem;
+    private javax.swing.JMenu helpMenu;
+    private javax.swing.JMenuItem htpHelpMenuItem;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenuBar mainMenuBar;
+    private javax.swing.JMenuItem newGameFileMenuItem;
     // End of variables declaration                   
 }
