@@ -1,8 +1,13 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package main1.finalproject2;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package myhw.finalproject;
 
 import java.awt.*;
 import javax.swing.*;
@@ -104,109 +109,6 @@ public class TicTacToeGUI extends javax.swing.JFrame {
             tieCountLabel.setText(String.valueOf(tieCount));
             resetBoard();
         }
-//        if (b1 == 1 && b2 == 1 && b3 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }
-//        
-//        else if (b4 == 1 && b5 == 1 && b6 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b7 == 1 && b8 == 1 && b9 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b1 == 1 && b4 == 1 && b7 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b2 == 1 && b5 == 1 && b8 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b3 == 1 && b6 == 1 && b9 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b1 == 1 && b5 == 1 && b9 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }  
-//        
-//        else if (b3 == 1 && b5 == 1 && b7 == 1) {
-//            JOptionPane.showInternalMessageDialog(null, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            xCount++;
-//            xCountLabel.setText(String.valueOf(xCount));
-//        }
-//        
-//        
-//        // o Count winning
-//        else if (b1 == 0 && b2 == 0 && b3 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }
-//        
-//        else if (b4 == 0 && b5 == 0 && b6 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b7 == 0 && b8 == 0 && b9 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b1 == 0 && b4 == 0 && b7 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b2 == 0 && b5 == 0 && b8 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b3 == 0 && b6 == 0 && b9 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b1 == 0 && b5 == 0 && b9 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }  
-//        
-//        else if (b3 == 0 && b5 == 0 && b7 == 0) {
-//            JOptionPane.showInternalMessageDialog(null, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            oCount++;
-//            oCountLabel.setText(String.valueOf(oCount));
-//        }
-//        
-//        else if (i == 9) {
-//            JOptionPane.showInternalMessageDialog(null, "It's a Tie", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);   
-//            tieCount++;
-//            tieCountLabel.setText(String.valueOf(tieCount));
-//        }
     }
 
     /**
@@ -308,15 +210,12 @@ public class TicTacToeGUI extends javax.swing.JFrame {
 
         btn3.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
         btn3.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                licked(evt);
+                clicked(evt);
             }
         });
-        btn3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn3ActionPerformed(evt);
-            }
-        });
+        btn3.addActionListener(this::btn3ActionPerformed);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -419,11 +318,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         jPanel7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         btn5.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
-        btn5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn5ActionPerformed(evt);
-            }
-        });
+        btn5.addActionListener(this::btn5ActionPerformed);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -445,11 +340,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         jPanel8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         btn6.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
-        btn6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn6ActionPerformed(evt);
-            }
-        });
+        btn6.addActionListener(this::btn6ActionPerformed);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -471,11 +362,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         jPanel11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         btn7.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
-        btn7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn7ActionPerformed(evt);
-            }
-        });
+        btn7.addActionListener(this::btn7ActionPerformed);
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -497,11 +384,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         jPanel12.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         btn8.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
-        btn8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn8ActionPerformed(evt);
-            }
-        });
+        btn8.addActionListener(this::btn8ActionPerformed);
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -523,11 +406,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         jPanel13.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         btn9.setFont(new java.awt.Font("Helvetica Neue", 0, 52)); // NOI18N
-        btn9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn9ActionPerformed(evt);
-            }
-        });
+        btn9.addActionListener(this::btn9ActionPerformed);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -555,11 +434,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
 //                btnResetMouseClicked(evt);
 //            }
         });
-        btnReset.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnResetActionPerformed(evt);
-            }
-        });
+        btnReset.addActionListener(this::btnResetActionPerformed);
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -587,11 +462,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
                 btnExitMouseClicked(evt);
             }
         });
-        btnExit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnExitActionPerformed(evt);
-            }
-        });
+        btnExit.addActionListener(this::btnExitActionPerformed);
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -673,32 +544,10 @@ public class TicTacToeGUI extends javax.swing.JFrame {
         //System.exit(0);
     }                                    
 
-    private void licked(java.awt.event.MouseEvent evt) {                        
+    private void clicked(java.awt.event.MouseEvent evt) {                        
         // TODO add your handling code here:
         //btn3.setText("X");
-    }                       
-
-//    private void btnResetMouseClicked(java.awt.event.MouseEvent evt) {                                      
-        // TODO add your handling code here:
-//        btn1.setText(" ");
-//        btn2.setText(" ");
-//        btn3.setText(" ");
-//        btn4.setText(" ");
-//        btn5.setText(" ");
-//        btn6.setText(" ");
-//        btn7.setText(" ");
-//        btn8.setText(" ");
-//        btn9.setText(" ");
-//        b1 = 10;
-//        b2 = 10;
-//        b3 = 10;
-//        b4 = 10;
-//        b5 = 10;
-//        b6 = 10;
-//        b7 = 10;
-//        b8 = 10;
-//        b9 = 10;
-//    }                                     
+    }                                                          
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
